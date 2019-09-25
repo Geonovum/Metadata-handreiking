@@ -6,9 +6,9 @@ var respecConfig = {
     name: "Geonovum",
     url: "http://www.geonovum.nl/",
   }],
-  publishDate: "2017-11-01",
-  shortName: "handreiking-iso19115",
-  github: "https://github.com/Geonovum/Metadata-ISO19115/",
+  publishDate: "2019-09-25",
+  shortName: "handreiking",
+  github: "https://github.com/Geonovum/Metadata-handreiking/",
   localBiblio: {
     "ISO19136-2007": {
       "href": "https://www.iso.org/standard/32554.html",
