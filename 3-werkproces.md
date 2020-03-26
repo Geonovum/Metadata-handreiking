@@ -6,8 +6,9 @@
 
 Je kunt op diverse manieren metadata aanmaken. Voor deze diverse manieren zijn er verschillende applicaties op de markt die voldoen aan het Nederlandse metadata profiel. Hieronder wordt beschreven hoe de metadata kan worden aangemaakt:
 
-. Metadata voor data invoeren via een metadata editor die ISO TS 19139 XML kan leveren
-. Metadata voor data toevoegen met behulp van een metadata editor van een catalogue 
+
+1. Metadata voor data invoeren via een metadata editor die ISO TS 19139 XML kan leveren
+2. Metadata voor data toevoegen met behulp van een metadata editor van een catalogue
 
 Deze methoden zijn hieronder beschreven om gebruikers de mogelijkheid te bieden een werkwijze te kiezen die past bij de organsatie.
 
@@ -25,9 +26,9 @@ Een metadata editor is geen verplicht onderdeel van een register, maar wordt wel
 
 De metadata voor services kan op de volgende drie manieren worden gemaakt:
 
-. Metadata voor de service aan het capabilities document van een service toevoegen
-. Metadata voor services invoeren via een metadata editor die ISO TS 19139 en CSW ISO metadata AP XML kan leveren
-. Metadata voor services toevoegen met behulp van een metadata editor van een catalogue
+1. Metadata voor de service aan het capabilities document van een service toevoegen
+2. Metadata voor services invoeren via een metadata editor die ISO TS 19139 en CSW ISO metadata AP XML kan leveren
+3. Metadata voor services toevoegen met behulp van een metadata editor van een catalogue
 
 Deze drie mogelijkheden zijn achtereenvolgens beschreven om gebruikers de mogelijkheid te bieden een methode te kiezen die past bij de organisatiemogelijkheden.
 
