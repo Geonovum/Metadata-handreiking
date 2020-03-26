@@ -27,9 +27,9 @@ Specifiek voor metadata zijn in Nederland “Het Nederlands metadata profiel op 
 
 Internationaal gelden voor ruimtelijke data de ISO metadata normen, ISO 19115 voor data en ISO 19119 voor services en waar relevant de OGC specificaties. INSPIRE heeft een Implementing Rule en een technische metadata richtlijn gemaakt. Deze Implementing Rule voor metadata bevat een Europese set voor discovery, evaluation en use. In de praktijk houdt INSPIRE zich voornamelijk bezig met metadata voor discovery.
 
-Een steeds breder toegepaste standaard is de DCAT standaard. Deze is niet specifiek voor ruimtelijke data. Het is een standaard om verschillende datacatalogi met elkaar uit te kunnen wisselen. Op deze W3C standaard is ook een europees applicatie profiel ontwikkeld en daarnaast het geoDCAT profiel, https://joinup.ec.europa.eu/release/geodcat-ap/10. dit is een extentie op DCAT waarmee het beter mogelijk wordt ruimtelijke data te beschrijven. DCAT2 https://www.w3.org/TR/vocab-dcat-2/ heeft zelf al meer mogelijkheden om ruimtelijke data te beschrijven. 
+Een steeds breder toegepaste standaard is de DCAT standaard. Deze is niet specifiek voor ruimtelijke data. Het is een standaard om verschillende datacatalogi met elkaar uit te kunnen wisselen. Op deze W3C standaard is ook een europees applicatie profiel ontwikkeld en daarnaast het [geoDCAT profiel](https://joinup.ec.europa.eu/release/geodcat-ap/10). dit is een extentie op DCAT waarmee het beter mogelijk wordt ruimtelijke data te beschrijven. [DCAT2](https://www.w3.org/TR/vocab-dcat-2/) heeft zelf al meer mogelijkheden om ruimtelijke data te beschrijven. 
 
-De figuur onder toont de Nederlandse metadatastandaarden in zijn internationale, Europese en sectorale context. De ISO-kernset is de kleinste eenheid, een selectie uit ISO 19115:2003, die de verplichte internationale metadata elementen aangeeft. Binnen Nederland is de Europese kernset uitgebreid met de specifieke behoeften van de gebruikers in Nederland en is de aansluiting op www.overheid.nl verzorgd.
+De Nederlandse metadatastandaarden hebben een internationale, Europese en sectorale context. De ISO-kernset is de kleinste eenheid, een selectie uit ISO 19115:2003, die de verplichte internationale metadata elementen aangeeft. Binnen Nederland is de Europese kernset uitgebreid met de specifieke behoeften van de gebruikers in Nederland en is de aansluiting op www.overheid.nl verzorgd.
 
 De Nederlandse kernset bevat de Europese kernset (INSPIRE) plus een selectie van metadata-elementen uit ISO 19115 die van belang zijn voor het Nederlandse werkveld.
 
@@ -42,8 +42,8 @@ Sectoren in Nederland kunnen een eigen uitbreiding op het Nederlandse profiel on
 ## INSPIRE
 
 Voor de INSPIRE thema's is het wettelijk verplicht om metadata  beschikbaar te stellen die voldoet aan de invoeringsregels van INSPIRE. “Het Nederlandse metadata profiel op ISO 19115 “en “Het Nederlandse metadata profiel op ISO 19119” bevatten de eisen vanuit INSPIRE.
-In de wiki [Aan de slag met INSPIRE](https://wiki.geonovum.nl/index.php?title=Aan_de_slag_met_INSPIRE) vind je meer informatie voor de implementatie van INSPIRE en ook specifiek [instructies voor INSPIRE dataset metadata](https://wiki.geonovum.nl/index.php?title=Invulinstructie) en voorbeelden [Voorbeeld XML voor INSPIRE dataset metadata](https://wiki.geonovum.nl/index.php?title=Voorbeeld_XML_voor_INSPIRE_dataset_metadata).
-[instructies voor INSPIRE service metadata](https://wiki.geonovum.nl/index.php?title=Invulinstructie_voor_services) en voorbeelden [Voorbeeld XML voor INSPIRE service metadata](https://wiki.geonovum.nl/index.php?title=Voorbeeld_XML_voor_INSPIRE_service_metadata)
+In de wiki [Aan de slag met INSPIRE](https://wiki.geonovum.nl/index.php?title=Aan_de_slag_met_INSPIRE) vind je meer informatie voor de implementatie van INSPIRE en ook specifiek [instructies voor INSPIRE dataset metadata](https://wiki.geonovum.nl/index.php?title=Invulinstructie) en  [Voorbeeld XML voor INSPIRE dataset metadata](https://wiki.geonovum.nl/index.php?title=Voorbeeld_XML_voor_INSPIRE_dataset_metadata).
+Daarnaast zijn er ook [instructies voor INSPIRE service metadata](https://wiki.geonovum.nl/index.php?title=Invulinstructie_voor_services) en [Voorbeeld XML voor INSPIRE service metadata](https://wiki.geonovum.nl/index.php?title=Voorbeeld_XML_voor_INSPIRE_service_metadata)
 
 <!-- ## Opdracht standaarden
 
