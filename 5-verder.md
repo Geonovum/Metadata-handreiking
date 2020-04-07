@@ -8,6 +8,35 @@ In de metadata wordt de URI van de dataset vastgelegd. Over hoe die URI tot stan
 en in onderstaande documenten beschreven
 [Aanzet tot nationale URI strategie](https://www.geonovum.nl/uploads/documents/D1-2013-09-19_Towards_a_NL_URI_Strategy.pdf)
 
+## Geharmoniseerde gebruiksvoorwaarden
+
+De gebruiksvoorwaarden, ook als daarvan wordt afgezien in Publiek Domein Mark of Creative Commons Zero verklaring, worden opgenomen in de metadata. Wie geo-informatie van een ander gebruikt, moet weten of daarvoor voorwaarden gelden en zo ja welke voorwaarden dat zijn. De Nederlandse overheid wil overheidsinformatie zoveel mogelijk gratis en zonder gebruiksvoorwaarden beschikbaar stellen. Dat kan met behulp van de Publiek Domein Mark of met de Creative Commons Zero (CC0) Verklaring. Met beide gebruiksvoorwaarden zijn de gegevens door iedereen voor ieder doeleind te gebruiken. Het verschil is dat op gegevens met een CC0 Verklaring een auteurs-, databank of ander recht van kracht is. Met de CC0 verklaring wordt afstand gedaan van deze rechten. Het ministerie van Infrastructuur en Milieu hanteert Creative Commons ZERO als de voorkeurslicentie voor data van haar ministerie. 
+
+
+Publiek Domein Mark
+Gegevens die met de Publiek Domein Mark beschikbaar zijn gesteld, kunnen door iedereen voor alle doeleinden worden gebruikt. Ook naamsvermelding kan niet geëist worden. U vindt de tekst die bij de [Publiek Domein Mark](http://creativecommons.org/publicdomain/mark/1.0/deed.nl) hoort op de site van Creative Commons.
+
+
+Creative Commons Zero
+Als er auteursrecht en/of databankenrecht rust op gegevens, of als bij wet, besluit of verordening, het openbaarmaken van gegevens uitdrukkelijk is voorbehouden, is de Publiek Domein Mark niet mogelijk. Om ook in dit geval gegevens zonder verdere vereisten beschikbaar te stellen, kan de Creative Commons Zero Verklaring worden gebruikt. Met deze Verklaring geeft de eigenaar aan de geldende rechten niet te zullen uitoefenen. U vindt de tekst die bij de [Creative Commons Zero](http://creativecommons.org/publicdomain/zero/1.0/deed.nl) Verklaring hoort op de site van Creative Commons; 
+
+Gebruiksvoorwaarden
+
+Voorkeur: Creative Commons 
+
+In Nederland is afgesproken om voor geo-informatie gebruik te maken van de gebruiksvoorwaarden van Creative Commons, tenzij dat niet mogelijk is. Dit “Creative Commons, tenzij” beleid is in 2014 vastgesteld door het GI-beraad. 
+
+> [Stel een Creative Commons licentie samen](http://creativecommons.org/choose/?lang=nl) 
+
+Alternatief: Geo Gedeeld 
+
+In sommige gevallen is het toch noodzakelijk om gebruiksvoorwaarden te handhaven, bijvoorbeeld door wetgeving. In die gevallen biedt Geo Gedeeld uitkomst. Geo Gedeeld is een hulpmiddel om gebruiksvoorwaarden voor geo-informatie op een eenvoudige, heldere en gestandaardiseerde manier kenbaar te maken. Het is ontstaan uit de behoefte van de overheid om de bestaande gebruiksvoorwaarden voor geo-informatie te stroomlijnen. 
+
+> [Stel een Geo Gedeeld licentie samen](http://geogedeeld.geonovum.nl/)
+
+De gebruiksvoorwaarden, ook als daarvan wordt afgezien in Publiek Domein Mark of Creative Commons Zero verklaring, worden opgenomen in de metadata.
+
+
 
 ## INSPIRE wiki
 
