@@ -23,7 +23,7 @@ Er zijn verschillende niveaus waarvoor metadata aangemaakt kunnen worden;
 Metadata van data, beschrijft de dataset of dataset serie
 Metadata van services, beschrijft de dataservice (WMS, WFS) waarmee (een) ruimtelijke dataset(s) wordt ontsloten.
 
-Specifiek voor metadata zijn in Nederland “Het Nederlands metadata profiel op ISO 19115“ en het “Het Nederlands metadata profiel op ISO 19119” gemaakt, zij maken onderdeel uit van het framework van standaarden. De Nederlandse metadata profielen zijn in een continu proces met de Europese en internationale context tot stand gekomen. Bij het volgen van het Nederlandse profiel, voldoet men ook aan INSPIRE en de verplichte elementen van ISO.
+Specifiek voor metadata zijn in Nederland het [Nederlands metadata profiel op ISO 19115](https://docs.geostandaarden.nl/md/mdprofiel-iso19115/) en het [Nederlands metadata profiel op ISO 19119](https://docs.geostandaarden.nl/md/mdprofiel-iso19119/) gemaakt, zij maken onderdeel uit van het framework van standaarden. De Nederlandse metadata profielen zijn in een continu proces met de Europese en internationale context tot stand gekomen. Bij het volgen van het Nederlandse profiel, voldoet men ook aan INSPIRE en de verplichte elementen van ISO.
 
 Internationaal gelden voor ruimtelijke data de ISO metadata normen, ISO 19115 voor data en ISO 19119 voor services en waar relevant de OGC specificaties. INSPIRE heeft een Implementing Rule en een technische metadata richtlijn gemaakt. Deze Implementing Rule voor metadata bevat een Europese set voor discovery, evaluation en use. In de praktijk houdt INSPIRE zich voornamelijk bezig met metadata voor discovery.
 
@@ -41,9 +41,9 @@ Sectoren in Nederland kunnen een eigen uitbreiding op het Nederlandse profiel on
 
 ## INSPIRE
 
-Voor de INSPIRE thema's is het wettelijk verplicht om metadata  beschikbaar te stellen die voldoet aan de invoeringsregels van INSPIRE. “Het Nederlandse metadata profiel op ISO 19115 “en “Het Nederlandse metadata profiel op ISO 19119” bevatten de eisen vanuit INSPIRE.
+Voor de INSPIRE thema's is het wettelijk verplicht om metadata  beschikbaar te stellen die voldoet aan de invoeringsregels van INSPIRE. Het [Nederlands metadata profiel op ISO 19115](https://docs.geostandaarden.nl/md/mdprofiel-iso19115/) en het [Nederlands metadata profiel op ISO 19119](https://docs.geostandaarden.nl/md/mdprofiel-iso19119/) bevatten de eisen vanuit INSPIRE.
 In de wiki [Aan de slag met INSPIRE](https://wiki.geonovum.nl/index.php?title=Aan_de_slag_met_INSPIRE) vind je meer informatie voor de implementatie van INSPIRE en ook specifiek [instructies voor INSPIRE dataset metadata](https://wiki.geonovum.nl/index.php?title=Invulinstructie) en  [Voorbeeld XML voor INSPIRE dataset metadata](https://wiki.geonovum.nl/index.php?title=Voorbeeld_XML_voor_INSPIRE_dataset_metadata).
-Daarnaast zijn er ook [instructies voor INSPIRE service metadata](https://wiki.geonovum.nl/index.php?title=Invulinstructie_voor_services) en [Voorbeeld XML voor INSPIRE service metadata](https://wiki.geonovum.nl/index.php?title=Voorbeeld_XML_voor_INSPIRE_service_metadata)
+Daarnaast zijn er ook [instructies voor INSPIRE service metadata](https://wiki.geonovum.nl/index.php?title=Invulinstructie_voor_services) en [Voorbeeld XML voor INSPIRE service metadata](https://wiki.geonovum.nl/index.php?title=Voorbeeld_XML_voor_INSPIRE_service_metadata).
 
 <!-- ## Opdracht standaarden
 
