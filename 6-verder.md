@@ -47,6 +47,3 @@ Voor services zijn de [invulinstructies](https://wiki.geonovum.nl/index.php?titl
 
 Voor INSPIRE gelden  [aanvullende vereisten voor validatie](https://wiki.geonovum.nl/index.php?title=Validatie)
 
-## TMLO
-Bij het archiveren van data kan voor een groot deel gebruik worden gemaakt van de al eerder aangemaakte metadata. In het [overzicht](https://github.com/Geonovum/Metadata-ISO19115/blob/master/Mapping_ISO-19115_en_TMLO_14-3-2017.XLSX) is aan aanzet gemaakt welke metadata elementen uit het Nederlands metadata profiel op ISO 19115 gebruikt kunnen worden voor archivering met de TMLO elementen.
-

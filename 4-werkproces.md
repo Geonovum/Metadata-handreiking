@@ -2,6 +2,8 @@
 
 ## Hoe maak je metadata?
 
+- werkwijzer metadata IBDS
+
 ### Metadata voor data
 
 Je kunt op diverse manieren metadata aanmaken. Voor deze diverse manieren zijn er verschillende applicaties op de markt die voldoen aan het Nederlandse metadata profiel. Hieronder wordt beschreven hoe de metadata kan worden aangemaakt:
