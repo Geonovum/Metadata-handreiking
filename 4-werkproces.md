@@ -6,13 +6,16 @@
 
 ### Metadata voor data
 
-Je kunt op diverse manieren metadata aanmaken. Voor deze diverse manieren zijn er verschillende applicaties op de markt die voldoen aan het Nederlandse metadata profiel. Hieronder wordt beschreven hoe de metadata kan worden aangemaakt:
+Je kunt op diverse manieren metadata aanmaken. Voor deze diverse manieren zijn er verschillende applicaties op de markt die voldoen aan het Nederlandse metadata profiel. 
+
+<!-- Hieronder wordt beschreven hoe de metadata kan worden aangemaakt:
 
 
 1. Metadata voor data invoeren via een metadata editor die ISO TS 19139 XML kan leveren
 2. Metadata voor data toevoegen met behulp van een metadata editor van een catalogue
 
 Deze methoden zijn hieronder beschreven om gebruikers de mogelijkheid te bieden een werkwijze te kiezen die past bij de organsatie.
+
 
 ### Metadata editor voor data
 
@@ -22,10 +25,10 @@ Er zijn ook stand-alone tools, voor desktop of via internet beschikbaar. Deze to
 
 ### Metadata editor voor data via de catalog client
 
-Een metadata editor is geen verplicht onderdeel van een register, maar wordt wel vaak toegepast bij een register. Het voordeel is dat de metadata direct gepubliceerd wordt in het register, maar het heeft geen directe relatie met de data. De metadata kan worden opgevoerd, of, met een andere methode verkregen metadata, worden bewerkt .
+Een metadata editor is geen verplicht onderdeel van een register, maar wordt wel vaak toegepast bij een register. Het voordeel is dat de metadata direct gepubliceerd wordt in het register, maar het heeft geen directe relatie met de data. De metadata kan worden opgevoerd, of, met een andere methode verkregen metadata, worden bewerkt . -->
 
-## Metadata voor services
-
+### Metadata voor services
+<!-- 
 De metadata voor services kan op de volgende drie manieren worden gemaakt:
 
 1. Metadata voor de service aan het capabilities document van een service toevoegen
@@ -70,11 +73,13 @@ Een deel van de metadata is automatisch te genereren uit de data. Het verdient d
 
 Begin in een zo vroeg mogelijk stadium met het vastleggen van metadata. Op het moment dat de dataset aangemaakt wordt is er vaak contact met de inhoudelijk specialist. Deze kan dan de inhoudelijke metadata aanleveren.
 
-Het moment waarop de opdracht wordt gegeven om de data te publiceren is een goede mogelijkheid om de metadata te controleren en eventueel te vervolmaken.
+Het moment waarop de opdracht wordt gegeven om de data te publiceren is een goede mogelijkheid om de metadata te controleren en eventueel te vervolmaken. -->
 
 ## Publiceren van metadata
 
-Nadat de metadata is ingewonnen en vastgelegd kan het gepubliceerd worden. Er zijn drie methoden voor het publiceren van metadata;
+Nadat de metadata is ingewonnen en vastgelegd kan het gepubliceerd worden. 
+
+<!-- Er zijn drie methoden voor het publiceren van metadata;
 
 
 1. Het aanmaken van nieuwe metadata in de metadata editor van een register
@@ -83,13 +88,13 @@ Nadat de metadata is ingewonnen en vastgelegd kan het gepubliceerd worden. Er zi
 
 
 De eerste twee mogelijkheden gaan uit van invoer van metadata direct in een register. Er is geen sprake van een geautomatiseerde verbinding met broninformatie die wijzigingen signaleert en doorvoert.
-
+ -->
 
 ### Metadata editor
 
-Als een organisatie nog niet beschikt over metadata kan gebruik worden gemaakt van de metadata editor die is opgenomen in een register. Hiermee kan metadata volgens de Nederlandse metadata standaard voor geografie versie 1.2 worden ingevuld. Het is ook mogelijk metadata voor services volgens het Nederlandse metadata profiel op ISO 19119 voor services versie 1.1 vast te leggen.
+<!-- Als een organisatie nog niet beschikt over metadata kan gebruik worden gemaakt van de metadata editor die is opgenomen in een register. Hiermee kan metadata volgens de Nederlandse metadata standaard voor geografie versie 1.2 worden ingevuld. Het is ook mogelijk metadata voor services volgens het Nederlandse metadata profiel op ISO 19119 voor services versie 1.1 vast te leggen. -->
 
-
+<!-- 
 ### Importeer metadata XML
 
 Een meer geavanceerde manier om metadata op te nemen in het een register, is door het uploaden van een XML. Deze methode is vooral geschikt voor gebruikers die met behulp van een eigen tool metadata hebben aangemaakt en deze in XML formaat kunnen wegschrijven.
@@ -136,13 +141,13 @@ In verschillende folders kan men metadata voor verschillende doelgroepen plaatse
 Metadata vanuit een catalogue harvesten
 Als een organisatie een eigen catalogue heeft kan van deze catalogue informatie overgenomen worden waarbij de metadata records worden gekopieerd naar bijvoorbeeld het nationaal georegister. De harvest operatie van de catalogue service is erop gericht om records in het nationaal georegister te creëren of te updaten. Hiervoor wordt de CSW standaard gebruikt. CSW staat voor Catalogue Services for the Web en is een zoek interface voor catalogues ontwikkeld door het Open Geospatial Consortium. NGR ondersteunt versie 2.0.2 ISO AP van deze standaard.
  
-Deze operatie wordt een keer uitgevoerd of periodiek (elke nacht) afhankelijk van de instellingen die de beheerder van de catalogue heeft ingeregeld.
+Deze operatie wordt een keer uitgevoerd of periodiek (elke nacht) afhankelijk van de instellingen die de beheerder van de catalogue heeft ingeregeld. -->
 
- 
 
-### Gedistribueerd vraagpatroon
+
+<!-- ### Gedistribueerd vraagpatroon -->
  
-Hoewel gedistribueerd zoeken niet tot harvesten behoort in de zin van een catalogue service, wordt het wel beschreven in deze paragraaf. De reden daarvoor is dat deze functionaliteit vaak wordt beschreven als catalogue-to-catalogue harvesting, maar niet te vergelijken is met de harvesting operaties beschreven in de voorgaande paragrafen.
+<!-- Hoewel gedistribueerd zoeken niet tot harvesten behoort in de zin van een catalogue service, wordt het wel beschreven in deze paragraaf. De reden daarvoor is dat deze functionaliteit vaak wordt beschreven als catalogue-to-catalogue harvesting, maar niet te vergelijken is met de harvesting operaties beschreven in de voorgaande paragrafen.
 
 Gedistribueerd zoeken: de geformuleerde vraag wordt naar de lokale en elke andere bekende catalogus gestuurd met een specifieke bevraagdiepte (met betrekking tot een specifieke netwerktopologie). De resultaten worden geïntegreerd en getoond aan de cliënt. De metadata records van andere catalogues worden niet gekopieerd naar de eigen catalogue. Catalogue records blijven bij de bron.
 
@@ -152,15 +157,15 @@ In het CSW 2.0.2 publicatie schema is de gedistribueerde vraag operatie als volg
 
 Het element “DistributedSearchType” bevraagt de catalog service om de “GetRecords”-request door te geven aan alle catalog services.
 
-Deze functionaliteit kan worden uitgebreid met een catalog implementatie om metadata records te ”cachen” van een remote catalog. Dit is dan vergelijkbaar met catalogue-catalogue harvesting. Dit kan alleen worden uitgevoerd op implementatie niveau; dit is geen functionaliteit gedefinieerd op specificatie niveau en dus geen standaard benadering.
+Deze functionaliteit kan worden uitgebreid met een catalog implementatie om metadata records te ”cachen” van een remote catalog. Dit is dan vergelijkbaar met catalogue-catalogue harvesting. Dit kan alleen worden uitgevoerd op implementatie niveau; dit is geen functionaliteit gedefinieerd op specificatie niveau en dus geen standaard benadering. -->
 
 ## Valideren
 
-De metadata van data(services) kunnen gevalideerd worden op:
+<!-- De metadata van data(services) kunnen gevalideerd worden op:
 
 http://validatie.geostandaarden.nl/etf-webapp/testprojects
 
-Hiermee kan men achterhalen of men aan de Nederlandse profielen voldoet. 
+Hiermee kan men achterhalen of men aan de Nederlandse profielen voldoet.  -->
 
 <!--
  ## Opdracht werkproces

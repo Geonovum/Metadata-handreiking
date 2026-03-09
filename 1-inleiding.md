@@ -25,24 +25,31 @@ Met alle ontwikkelingen rond datagedreven werken, federatieve datastelsels en da
 
 >In de kaderrichtlijn INSPIRE zie https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving wordt metadata voor de thema’s op het gebied van milieu ook wettelijk verplicht gesteld.
 
- # Wat kun je ermee?
+ # Wat kun je met metadata?
 
-## Vinden
+## Data vinden
 
 Metadata kan intern in een grote organisatie worden gebruikt om data te ontsluiten. Op basis van de beschrijvende kenmerken kan men de juiste dataset, service of API zoeken en in viewers of applicaties tonen en gebruiken.
+
+## Data beoordelen
+
+- Metadata kan voor andere organisaties de __kwaliteit__ van de betreffende datasets inzichtelijk maken. Op basis van de metadata kan men beslissen of deze dataset of service te gebruiken is, of dat er zelf gegevens ingewonnen en gedigitaliseerd moeten worden.
+
+- Op basis van de metadata kan men tot de conclusie komen dat de informatie die men wil vastleggen al grotendeels bestaat. Dit kan er ook toe leiden dat de al bestaande data wordt aangevuld met gegevens, waardoor de dataset voor een grotere __doelgroep__ interessanter wordt.
+
+- Vanuit de beheer optiek biedt metadata ook de mogelijkheid om data goed te __beheren__. Zo kunnen alle datasets die niet meer actueel zijn makkelijk worden geselecteerd op basis van de metadata. Het is bijvoorbeeld ook mogelijk om alle datasets gemaakt door 1 persoon of instantie te selecteren.
 
 <!--
 ## Hergebruik
 
-Metadata kan voor andere organisaties de kwaliteit van de betreffende datasets inzichtelijk maken. Op basis van de metadata kan men beslissen of deze dataset of service te gebruiken is, of dat er zelf gegevens ingewonnen en gedigitaliseerd moeten worden.
+
 
 ## Verrijken
 
-Op basis van de metadata kan men tot de conclusie komen dat de informatie die men wil vastleggen al grotendeels bestaat. Dit kan er ook toe leiden dat de al bestaande data wordt aangevuld met gegevens, waardoor de dataset voor een grotere doelgroep interessanter wordt.
 
 ## Beheer
 
-Vanuit de beheer optiek biedt metadata ook de mogelijkheid om data goed te beheren. Zo kunnen alle datasets die niet meer actueel zijn makkelijk worden geselecteerd op basis van de metadata. Het is bijvoorbeeld ook mogelijk om alle datasets gemaakt door 1 persoon of instantie te selecteren.
+
 
 ## Continuiteit
 
@@ -61,7 +68,7 @@ Metadata hoeft niet altijd direct toegang te geven tot de dataset of service, ma
 <!--
 # Waar vind je metadata?
 
-Metadata kan je ontsluiten via een register of catalogus. Dit kan binnen een organisatie, maar ook nationaal of internationaal. Zo maak je het mogelijk om de metadata doorzoekbaar te maken en de data eventueel te tonen in een portaal. Een voorbeeld van een register is het nationaal georegister. Hierin is metadata van verschillende organisaties in Nederland opgenomen. Via het nationaal georegister kan iemand data zoeken, raadplegen en in een de meeste gevallen ook direct verkrijgen;
+
 
 ## Zoeken (discovery) 
 
@@ -81,11 +88,20 @@ In een geo-informatie infrastructuur is een discovery mechanisme een online serv
 
 # Toepassingen
 
+## Catalogi
+
+Metadata is vaak ontsloten via een register of catalogus. Dit kan binnen een organisatie, maar ook nationaal of internationaal. Zo maak je het mogelijk om de metadata doorzoekbaar te maken en de data eventueel te tonen in een portaal. Een voorbeeld van een register is het nationaal georegister. Hierin is metadata van verschillende organisaties in Nederland opgenomen. Via het nationaal georegister kan iemand data zoeken, raadplegen en in een de meeste gevallen ook direct verkrijgen.
+
+>Bijvoorbeeld: 
+Om het gebruik van PDOK data te vergemakkelijken voor de professionele GIS-gebruikers in Nederland is er een QGIS plugin ontwikkeld. De plugin maakt het gemakkelijk om direct de PDOK datasets en services te vinden, te raadplegen en te downloaden. Via de plugin kan een gebruiker zowel vrij zoeken als INSPIRE-data zoeken op trefwoord, INSPIRE-thema, organisatie of type service. Deze info komt uit het NGR en wordt door de plugin toegankelijk gemaakt. Het gevonden resultaat kan je direct toevoegen aan QGIS. Je kunt de PDOK plugin downloaden vanuit de werkbalk van QGIS.
+
+## Gefedereerde catalogi
+
 Naast een eigen zoekingang op een register kan een register gebruikt worden via de ‘achterkant’. Op basis van standaard zoekprotocollen is het mogelijk om de centrale catalogus van een register, zoals het het nationaal georegister (NGR), aan te roepen via de zoekclient van een andere (web)toepassing. Het is zelfs mogelijk, dat het gebruik van deze registers kan verlopen via (web)toepassingen van anderen. Dit kunnen toepassingen of websites zijn van specifieke communities, generieke zoekmachines zoals Google, maar ook zware GIS-clients.
 
-Bijvoorbeeld: 
-Om het gebruik van INSPIRE data te vergemakkelijken voor de professionele GIS-gebruikers in Nederland is er een QGIS plugin ontwikkeld. De plugin maakt het gemakkelijk om direct de INSPIRE datasets en services te vinden, te raadplegen en te downloaden. Via de plugin kan een gebruiker zowel vrij zoeken als INSPIRE-data zoeken op trefwoord, INSPIRE-thema, organisatie of type service. Deze info komt uit het NGR en wordt door de plugin toegankelijk gemaakt. Het gevonden resultaat kan je direct toevoegen aan QGIS. Je kunt de INSPIRE plugin downloaden vanuit de werkbalk van QGIS.
+## AI
 
+AI toepassingen hebben vaak baat bij extra context, informatie over de opdracht die aan de AI gegeven wordt. Deze context is vaak te maken met metadata van de databronnen die ingezet worden.
 
 # Waarom standaarden
 
@@ -97,7 +113,7 @@ Een norm of standaard is een procedure of een maat waarvan een groep mensen met 
 Standaarden worden gebruikt om de uitwisselbaarheid (de interoperabiliteit) te bevorderen. Interoperabiliteit is ‘het vermogen van een bepaald systeem effectief of correct te functioneren als deel van een ander systeem’ (systeem wordt hier in algemene, brede zin gebruikt). 
 Het bevorderen van interoperabiliteit binnen en tussen overheidsinstellingen en met bedrijven en burgers, kan alleen worden bereikt door gebruik te maken van (open) standaarden.
 
-## Standaarden voor geo informatie
+## Standaarden voor geo informatie en metadata
 
 Voor het domein geo-informatie zijn diverse standaarden beschikbaar. Het [Raamwerk geostandaarden](https://docs.geostandaarden.nl/rwgs/rw/) benoemt de internationale en nationale standaarden die voor Nederland binnen het geo-domein van toepassing zijn voor aansluiting met andere domeinen. Het raamwerk houdt rekening met aansluiting op de Europese geo-informatie infrastructuur en borgt integratie van het geo-informatie domein in de Nederlandse digitale overheid.
 
