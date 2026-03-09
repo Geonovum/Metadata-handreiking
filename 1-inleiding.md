@@ -1,39 +1,55 @@
 # Wat is metadata?
 
-Meta van het griekse μετά wordt gebruikt om aan te geven dat het een abstractie is van iets, gebruikt om deze aan te vullen. Het zegt iets over zichzelf. Metadata is 'data over data'. Ze beschrijft de inhoud van de data.
+Meta van het griekse μετά wordt gebruikt om aan te geven dat het een abstractie is van iets, gebruikt om deze aan te vullen. Het zegt iets over zichzelf. Metadata is 'data over data'. Ze beschrijft de inhoud van de data. 
+
+In deze handreiking kijken we iets verder dan alleen naar metadata over data, we plaatsen deze metadata ook in de context van begrippen en informatiemodellen.  
 
 # Waarom metadata?
 
 Zie onderstaand conservenblikje zonder etiquette. Als je deze blikjes in de winkel ziet staan, zul je pas na thuiskomst en na opening van het blikje zien wat erin zit. Op basis van kleur, geur en smaak kun je vaststellen wat er in het blikje zit. Of het (nog) verantwoord is om te eten, zal op basis van de geur en uiterlijk vastgesteld moeten worden. Of er ingrediënten in zitten die je niet lekker vindt of waar je allergisch voor bent kun je alleen proefondervindelijk ontdekken. Je zult echter nooit te weten komen wie dit product heeft gemaakt en of je het veilig kunt eten. De meesten van ons zullen zo’n blikje dan ook niet kopen. 
 
-![Voorbeeld van een blikje zonder label](media/images/Blikje.jpg)
+<figure id="i0">
+    <img src="./media/Blikje.jpg" alt="blikje zonder label"></a>
+    <figcaption>Voorbeeld van een blikje zonder label</figcaption>
+</figure>
+
 
 Zo ook met data. Als je niet weet wat het voorstelt, welke actualiteit het heeft, wie de data gemaakt heeft en met welke kwaliteit het is vastgelegd, zal alleen de maker van deze data deze vragen kunnen beantwoorden.
-Met metadata wordt de geografische dataset zo beschreven dat zoekopdrachten gericht kunnen worden op vragen als ‘wie, wat, waar, wanneer, waarom en hoe’. De metadata bevat details over de eigenaar van de geografische data, de kwaliteit en de geldigheid ervan, en hoe de data kan worden benaderd en gebruikt. 
+Met metadata wordt de (geografische) dataset zo beschreven dat zoekopdrachten gericht kunnen worden op vragen als ‘wie, wat, waar, wanneer, waarom en hoe’. De metadata bevat details over de eigenaar van de (geografische) data, de kwaliteit en de geldigheid ervan, en hoe de data kan worden benaderd en gebruikt. 
 
-De groeiende informatiebehoefte heeft geleid tot veel geografische datasets, –series en services met een grote diversiteit aan onderwerpen, thema’s en benaderingen. Gevolg van dit groote aanbod van geografische datasets is, dat het voor gebruikers van geografische datasets moeilijk is de juiste informatie te vinden.
+Met alle ontwikkelingen rond datagedreven werken, federatieve datastelsels en datastrategieën wordt metadata, en aanverwante onderwerpen als begrippenkaders en informatiemodellen, steeds belangrijker. Als we data goed willen kunnen gebruiken moeten we de context ervan goed begrijpen.
 
-Door de opkomst van Service Oriented Architecture is men genoodzaakt ook metadata van datasets en services vast te leggen. Doordat men rechtstreeks services kan benaderen, heeft men steeds minder rechtstreeks contact met de bronhouder om informatie over de gegevens te verkrijgen en is de behoefte aan goede metadata toegenomen.
+>De groeiende informatiebehoefte heeft geleid tot veel geografische datasets, –series en services met een grote diversiteit aan onderwerpen, thema’s en benaderingen. Gevolg van dit grote aanbod van geografische datasets is, dat het voor gebruikers van geografische datasets moeilijk is de juiste informatie te vinden.
 
-In de kaderrichtlijn INSPIRE zie https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving wordt metadata voor de thema’s op het gebied van milieu ook wettelijk verplicht gesteld.
+>Door de opkomst van Service Oriented Architecture is men genoodzaakt ook metadata van datasets en services vast te leggen. Doordat men rechtstreeks services kan benaderen, heeft men steeds minder rechtstreeks contact met de bronhouder om informatie over de gegevens te verkrijgen en is de behoefte aan goede metadata toegenomen.
 
-# Wat kun je ermee?
+>In de kaderrichtlijn INSPIRE zie https://www.geonovum.nl/geo-standaarden/inspire-europese-leefomgeving wordt metadata voor de thema’s op het gebied van milieu ook wettelijk verplicht gesteld.
 
-## Vinden
+ # Wat kun je met metadata?
+
+## Data vinden
 
 Metadata kan intern in een grote organisatie worden gebruikt om data te ontsluiten. Op basis van de beschrijvende kenmerken kan men de juiste dataset, service of API zoeken en in viewers of applicaties tonen en gebruiken.
 
+## Data beoordelen
+
+- Metadata kan voor andere organisaties de __kwaliteit__ van de betreffende datasets inzichtelijk maken. Op basis van de metadata kan men beslissen of deze dataset of service te gebruiken is, of dat er zelf gegevens ingewonnen en gedigitaliseerd moeten worden.
+
+- Op basis van de metadata kan men tot de conclusie komen dat de informatie die men wil vastleggen al grotendeels bestaat. Dit kan er ook toe leiden dat de al bestaande data wordt aangevuld met gegevens, waardoor de dataset voor een grotere __doelgroep__ interessanter wordt.
+
+- Vanuit de beheer optiek biedt metadata ook de mogelijkheid om data goed te __beheren__. Zo kunnen alle datasets die niet meer actueel zijn makkelijk worden geselecteerd op basis van de metadata. Het is bijvoorbeeld ook mogelijk om alle datasets gemaakt door 1 persoon of instantie te selecteren.
+
+<!--
 ## Hergebruik
 
-Metadata kan voor andere organisaties de kwaliteit van de betreffende datasets inzichtelijk maken. Op basis van de metadata kan men beslissen of deze dataset of service te gebruiken is, of dat er zelf gegevens ingewonnen en gedigitaliseerd moeten worden.
+
 
 ## Verrijken
 
-Op basis van de metadata kan men tot de conclusie komen dat de informatie die men wil vastleggen al grotendeels bestaat. Dit kan er ook toe leiden dat de al bestaande data wordt aangevuld met gegevens, waardoor de dataset voor een grotere doelgroep interessanter wordt.
 
 ## Beheer
 
-Vanuit de beheer optiek biedt metadata ook de mogelijkheid om data goed te beheren. Zo kunnen alle datasets die niet meer actueel zijn makkelijk worden geselecteerd op basis van de metadata. Het is bijvoorbeeld ook mogelijk om alle datasets gemaakt door 1 persoon of instantie te selecteren.
+
 
 ## Continuiteit
 
@@ -47,10 +63,12 @@ Mogelijkheden tot beheer van de dataset
 Continuiteit van kennis over datasets en services
 
 Metadata hoeft niet altijd direct toegang te geven tot de dataset of service, maar geeft wel aan waar deze dan te verkrijgen is.
+-->
 
+<!--
 # Waar vind je metadata?
 
-Metadata kan je ontsluiten via een register of catalogus. Dit kan binnen een organisatie, maar ook nationaal of internationaal. Zo maak je het mogelijk om de metadata doorzoekbaar te maken en de data eventueel te tonen in een portaal. Een voorbeeld van een register is het nationaal georegister. Hierin is metadata van verschillende organisaties in Nederland opgenomen. Via het nationaal georegister kan iemand data zoeken, raadplegen en in een de meeste gevallen ook direct verkrijgen;
+
 
 ## Zoeken (discovery) 
 
@@ -66,12 +84,40 @@ Ieder niveau in het register heeft haar eigen zoekmechanisme en maakt gebruik va
 
 In een geo-informatie infrastructuur is een discovery mechanisme een online service die providers en gebruikers samenbrengt. Discovery mechanismen bieden gebruikers de mogelijkheid om geografische informatie, in de vorm van datasets, dataset series and services te vinden (discovery), te beoordelen (exploration) en te verkrijgen (exploitation).
 
+-->
+
 # Toepassingen
+
+## Catalogi
+
+Metadata is vaak ontsloten via een register of catalogus. Dit kan binnen een organisatie, maar ook nationaal of internationaal. Zo maak je het mogelijk om de metadata doorzoekbaar te maken en de data eventueel te tonen in een portaal. Een voorbeeld van een register is het nationaal georegister. Hierin is metadata van verschillende organisaties in Nederland opgenomen. Via het nationaal georegister kan iemand data zoeken, raadplegen en in een de meeste gevallen ook direct verkrijgen.
+
+>Bijvoorbeeld: 
+Om het gebruik van PDOK data te vergemakkelijken voor de professionele GIS-gebruikers in Nederland is er een QGIS plugin ontwikkeld. De plugin maakt het gemakkelijk om direct de PDOK datasets en services te vinden, te raadplegen en te downloaden. Via de plugin kan een gebruiker zowel vrij zoeken als INSPIRE-data zoeken op trefwoord, INSPIRE-thema, organisatie of type service. Deze info komt uit het NGR en wordt door de plugin toegankelijk gemaakt. Het gevonden resultaat kan je direct toevoegen aan QGIS. Je kunt de PDOK plugin downloaden vanuit de werkbalk van QGIS.
+
+## Gefedereerde catalogi
 
 Naast een eigen zoekingang op een register kan een register gebruikt worden via de ‘achterkant’. Op basis van standaard zoekprotocollen is het mogelijk om de centrale catalogus van een register, zoals het het nationaal georegister (NGR), aan te roepen via de zoekclient van een andere (web)toepassing. Het is zelfs mogelijk, dat het gebruik van deze registers kan verlopen via (web)toepassingen van anderen. Dit kunnen toepassingen of websites zijn van specifieke communities, generieke zoekmachines zoals Google, maar ook zware GIS-clients.
 
-Bijvoorbeeld: 
-Om het gebruik van INSPIRE data te vergemakkelijken voor de professionele GIS-gebruikers in Nederland is er een QGIS plugin ontwikkeld. De plugin maakt het gemakkelijk om direct de INSPIRE datasets en services te vinden, te raadplegen en te downloaden. Via de plugin kan een gebruiker zowel vrij zoeken als INSPIRE-data zoeken op trefwoord, INSPIRE-thema, organisatie of type service. Deze info komt uit het NGR en wordt door de plugin toegankelijk gemaakt. Het gevonden resultaat kan je direct toevoegen aan QGIS. Je kunt de INSPIRE plugin downloaden vanuit de werkbalk van QGIS.
+## AI
+
+AI toepassingen hebben vaak baat bij extra context, informatie over de opdracht die aan de AI gegeven wordt. Deze context is vaak te maken met metadata van de databronnen die ingezet worden.
+
+# Waarom standaarden
+
+In het dagelijks leven maken we veelal onbewust gebruik van tal van standaarden. Eigenlijk is voor bijna alles wel een norm of standaard beschikbaar, van gebruiksvoorwerpen, tijd, (meet)eenheden, verkeersborden tot de bescherming van persoonsgegevens. 
+
+Er bestaan ruim 2000 specifiek Nederlandse normen en er zijn er nog veel meer geldig in Nederland omdat ze bijvoorbeeld vanuit Europa komen of op wereldschaal geldig zijn. 
+Een norm of standaard is een procedure of een maat waarvan een groep mensen met elkaar heeft afgesproken dat ze hem zullen gebruiken. Het gaat hierbij om verwachtingen over het gedrag van de mens. Vaak zijn het regels en kan je ze uitvoeren. Ook hangen ze nauw samen met waarden.
+
+Standaarden worden gebruikt om de uitwisselbaarheid (de interoperabiliteit) te bevorderen. Interoperabiliteit is ‘het vermogen van een bepaald systeem effectief of correct te functioneren als deel van een ander systeem’ (systeem wordt hier in algemene, brede zin gebruikt). 
+Het bevorderen van interoperabiliteit binnen en tussen overheidsinstellingen en met bedrijven en burgers, kan alleen worden bereikt door gebruik te maken van (open) standaarden.
+
+## Standaarden voor geo informatie en metadata
+
+Voor het domein geo-informatie zijn diverse standaarden beschikbaar. Het [Raamwerk geostandaarden](https://docs.geostandaarden.nl/rwgs/rw/) benoemt de internationale en nationale standaarden die voor Nederland binnen het geo-domein van toepassing zijn voor aansluiting met andere domeinen. Het raamwerk houdt rekening met aansluiting op de Europese geo-informatie infrastructuur en borgt integratie van het geo-informatie domein in de Nederlandse digitale overheid.
+
+Er zijn meerdere standaarden die van belang zijn voor metadata van ruimtelijke data of services.  Metadata voor geodata worden volgens het Nederlands metadata profiel op ISO 19115 beschreven. ISO 19139 is de specificatie van de implementatie, de encoding hiervoor. Met deze encoding worden de metadata op een eenduidige manier in een XML opgeslagen. Metadata voor geoservices worden volgens het Nederlands metadata profiel op ISO 19119 beschreven. Naast de ISO standaarden wordt, vooral ook voor de uitwisseling tussen domeinen, DCAT gebruikt. 
 
 <!-- # Opdracht discovery
 

@@ -1,20 +1,44 @@
 # Metadata standaarden
 
-## Waarom een standaard
+Er zijn diverse metadata standaarden voor datasets, distributies en services. Degene die een belangrijke rol spelen in de Nederlandse context lichten we hier verder toe.
 
-In het dagelijks leven maken we veelal onbewust gebruik van tal van standaarden. Eigenlijk is voor bijna alles wel een norm of standaard beschikbaar, van gebruiksvoorwerpen, tijd, (meet)eenheden, verkeersborden tot de bescherming van persoonsgegevens. 
+<figure id="i4">
+    <img src="./media/dcat-landschap.png" alt="afbeelding van de verschillende DCAT standaarden">
+    <figcaption>DCAT Landschap</figcaption>
+</figure>
 
-Er bestaan ruim 2000 specifiek Nederlandse normen en er zijn er nog veel meer geldig in Nederland omdat ze bijvoorbeeld vanuit Europa komen of op wereldschaal geldig zijn. 
-Een norm of standaard is een procedure of een maat waarvan een groep mensen met elkaar heeft afgesproken dat ze hem zullen gebruiken. Het gaat hierbij om verwachtingen over het gedrag van de mens. Vaak zijn het regels en kan je ze uitvoeren. Ook hangen ze nauw samen met waarden.
+## DCAT
 
-Standaarden worden gebruikt om de uitwisselbaarheid (de interoperabiliteit) te bevorderen. Interoperabiliteit is ‘het vermogen van een bepaald systeem effectief of correct te functioneren als deel van een ander systeem’ (systeem wordt hier in algemene, brede zin gebruikt). Denk bijvoorbeeld aan het gebruik van Frans of Russisch spoorwegmaterieel op het Nederlandse spoor.
-Het bevorderen van interoperabiliteit binnen en tussen overheidsinstellingen en met bedrijven en burgers, kan alleen worden bereikt door gebruik te maken van (open) standaarden
 
-## Standaarden voor geo informatie
+<a href="https://www.w3.org/TR/vocab-dcat-3/" target="_blank">DCAT</a> is een RDF vocabulaire van het W3C om data te beschrijven. [[vocab-dcat-3]] maakt gebruik van verschillende andere RDF vocabulaires, zoals [[DCTERMS]], [[FOAF]] en [[PROV-O]]. Kenmerkend voor deze vocabulaires is dat ze beschrijvend van aard zijn, ze beschrijven welke eigenschappen je vast zou kunnen leggen, zonder hier een verplichtend kararkter aan te verbinden.
 
-Voor het domein geo-informatie zijn diverse standaarden beschikbaar. Om aan te kunnen sluiten op de Europese infrastructuur op dit gebied en te kunnen integreren met de elektronische overheid is er het framework van standaarden ontwikkeld. Meer hierover vind je terug op https://www.geonovum.nl/themas/standaardisatie
+Onderstaande plaat laat op hoofdlijnen zien hoe de structuur van DCAT eruit ziet. (let op, er zijn meer klassen en eigenschappen dan er in deze plaat opgenomen zijn).
+![overzicht DCAT klassen](./media/overzicht-dcat-klassen.png)
 
-Er zijn meerdere standaarden die van belang zijn voor metadata van ruimtelijke data of services.  Metadata voor data worden volgens Het Nederlands metadata profiel op ISO 19115 beschreven. ISO 19139 is de specificatie van de implementatie, de encoding hiervoor. Met deze encoding worden de metadata op een eenduidige manier in een XML opgeslagen. Metadata voor services worden volgens Het Nederlands metadata profiel op ISO 19119 beschreven. De encoding voor services is in CSW ISO AP 2.0.2 opgenomen. Naast de standaarden voor metadata en catalogs zijn ook de voor metadata van services en het profiel op WMS van belang.
+- Een __Dataset__ is een zinvolle verzameling van samenhangende gegevens, die beheerd of gepubliceerd wordt door één organisatie.
+- Een __Distributie__ beschrijft hoe een dataset te verkrijgen is. Een Distributie levert rechtstreeks een dataset in een specifiek formaat op.
+- Een __DataService__ is een computer service waar gegevens opgevraagd worden aan de hand van specificaties in een aanvraag. De gegevens die voldoen aan de meegegeven specificatie worden als antwoord teruggestuurd. Webservices zoals REST/JSON, WMS of XML interfaces zijn voorbeelden van dcat:DataService. Merk op dat als de specificatie slechts een deel van de gegevens beschrijft, alleen desbetreffende subset wordt opgestuurd.
+
+Dataservice is een klasse die in versie 3 van DCAT is toegevoegd om een specifieker onderscheid te kunnen maken tussen 'vast vormgegeven' downloads (Distributies) en 'flexibele' DataServices, waar je afhankelijk van de vraag dus een ander antwoord kunt krijgen. In oudere metadata beschrijvingen zijn Services soms nog als Distributies opgenomen. Merk verder op dat een DataService in principe een resultaat kan teruggeven wat bestaat uit gegevens uit meerdere Datasets. 
+
+Voor het vastleggen van kwalitatief goede metadata willen we kunnen afspreken dat bepaalde eigenschappen minimaal ingevuld moeten zijn of een waarde uit een voorgeschreven lijst moeten bevatten. Dit is waar de 'applicatie profielen' hun intrede doen.
+
+## DCAT-AP en DCAT-AP-HVD
+
+Het kenmerk van een applicatie profiel is dat er verplichtende eigenschappen en/of waardenlijsten beschreven kunnen worden. Dit wordt gedaan door het profiel in [[SHACL]] te beschrijven.
+Het Europese [[DCAT-AP]] profiel beschrijft waar metadata voor het Europese Dataportaal aan moet voldoen. Het bevat een basisset van algemene eigenschappen om metadata over domeinen heen uit te kunnen wisselen. Voor datasets die onder de HVD regeling vallen geldt dat deze conform het [[DCAT-AP-HVD]] profiel beschreven moeten worden.
+
+## Domein specifieke applicatie profielen
+
+Binnen domeinen kan er behoefte zijn om metadata meer gedetailleerd te beschrijven met eigenschappen die belangrijk zijn in het specifieke domein. Hiervoor bestaan verschillende domein specifieke applicatie profielen die voldoen aan het algemene DCAT-AP profiel, maar daar aanvullende eigenschappen of restricties op definieren. Voorbeelden hiervan zijn HealtDCAT-AP in het gezondheidsdomein en MobilityDCAT-AP in het mobiliteitsdomein.
+
+## DCAT-AP-NL
+
+[[DCAT-AP-NL]] is het generieke Nederlandse DCAT applicatie profiel. Dit sluit aan op het Europese DCAT-AP profiel en is binnen Nederland bedoelt voor uitwisseling tussen domeinen.
+
+Daar waar er meer specifieke Metadata standaarden voor Datasets zijn zoals in het geodomein (ISO 19115/19119), het mobiliteitsdomein (MobilityDCAT-AP) of het gezondheidsdomein (HealthDCAT-AP) kunnen de specifieke standaarden gebruikt worden. Bij de catalogi voor de specifieke domeinen wordt vervolgens geregeld dat metadata die in een domeinspecifiek formaat is aangeleverd geconverteerd kan worden naar het meer algemene DCAT-AP-NL. 
+
+## ISO 19xxx
 
 ## Metadata standaarden
 
