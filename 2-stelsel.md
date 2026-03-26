@@ -99,4 +99,9 @@ DCAT-AP-NL, MDTO en NL profiel op ISO 19115 kennen inhoudelijk een aantal overee
 2.	MDTO gaat uit van bestanden en DCAT en ISO 19115 van distributies
 3.	MDTO en ISO 19115 zijn XML gebaseerd, DCAT op RDF
 
-Meer informatie hierover is te vinden in de notitie die gepubliceerd is: TBD
+<figure id="i2_3">
+<a href="./media/3xmetadata_0.png" target="_blank"><img src="./media/3xmetadata_0.png" alt="afbeelding van de relatie tussen MDTO, DCAT en ISO metadatastandaarden"></a>
+<figcaption>de relatie tussen MDTO, DCAT en ISO metadatastandaarden</figcaption>
+</figure>
+
+Meer informatie hierover is te vinden in de volgende <a href="https://www.geonovum.nl/geo-standaarden/metadataprofiel-dcat-ap-nl/relaties-verschillende-metadata-standaarden" target="_blank">notitie</a>

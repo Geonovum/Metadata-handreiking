@@ -161,17 +161,43 @@ Deze functionaliteit kan worden uitgebreid met een catalog implementatie om meta
 
 ## Valideren
 
-<!-- De metadata van data(services) kunnen gevalideerd worden op:
 
-http://validatie.geostandaarden.nl/etf-webapp/testprojects
+### Valideren ISO XML Metadata
 
-Hiermee kan men achterhalen of men aan de Nederlandse profielen voldoet.  -->
+Het valideren van ISO 19115 (Datasets) en 19119 (Dataservices) metadata tegen het Nederlands profiel kan gedaan worden met de volgende online validator: http://validatie.geostandaarden.nl/etf-webapp/testprojects
 
-<!--
- ## Opdracht werkproces
+### Valideren van DCAT Metadata
 
- Een dienst heeft duizend medewerkers, van wie er honderd met GIS werken, veertien servers en zevenhonderd gigabyte aan geodata. De dienst heeft een achterstand van 135 mensjaar om metadata in te voeren (807.000 bestanden x 0,25 uur/1500 uur = 135 mensjaar). Een scan leerde dat geodata explosief groeit vergeleken met algemene data, maar ook dat er 15% dubbelingen zijn en daarnaast 75% van de geodata bij externe partijen vandaan komt. 
-Bij deze dienst heeft 80% van de geodata geen metadata. Ongeveer 18% van de data heeft metadata conform ISO standaard. 
-Stel voor bovenstaande case een plan op om de achterstand weg te werken.
-Stel voor bovenstaande case een plan op om nieuwe geodata van metadata te voorzien
+Daar waar ISO XML metadata in principe file gebaseerd is en de losse file als geheel gevalideerd kan worden met de bovenstaande validator is dat met DCAT gebaseerde metadata potentieel complexer.
+
+DCAT Applicatie profielen worden gedefinieerd in SHACL. Dit betekent dat je metadata ook kan valideren of het voldoet aan de 'vorm' die in de SHACL files is gedefinieerd.
+
+DCAT-AP-NL is een profiel op DCAT-AP. Dit betekent dat we de SHACL regels van DCAT-AP als basis gebruiken en daar aanvullend SHACL files voor het Nederlands profiel op hebben gedefinieerd, zoals in de afbeelding hieronder te zien is.
+
+<figure id="i4_1">
+<a href="./media/shapes.svg" target="_blank"><img src="./media/shapes.svg" alt="Verhouding van de shapes van DCAT-AP, DCAT-AP-NL en High-Value Datasets"></a>
+<figcaption>Verhouding van de shapes van DCAT-AP, DCAT-AP-NL en High-Value Datasets</figcaption>
+</figure>
+
+Het valideren met SHACL kan met verschillende tools en oplossingen gedaan worden. Hieronder worden een aantal van die oplossingen beschreven. In alle gevallen moet je nadenken welk 'niveau' er precies gevalideerd wordt. Alleen de verplichte eigenschappen van DCAT-AP plus DCAT-AP-NL, of ook de aanbevolen eigenschappen of ook nog de aanvullende HVD eisen.
+
+- DCAT-AP online validator van Europa
+
+https://www.itb.ec.europa.eu/shacl/semic-shacl/upload
+
+Met deze validator kan er tegen het DCAT-AP profiel getest worden. In het keuze menu zijn verschillende versies van DCAT-AP beschikbaar en verschillende niveaus van eigenschappen. Het minimale niveau is bijvoorbeeld dat er in ieder geval keywords en/of themas zijn opgegeven. Een hoger niveau van voldoen aan DCAT-AP betekent niet alleen keywords als tekst maar op basis van SKOS Concepten.
+
+-> uitzoeken: is er ook een online validator waar je de shacl files kunt uploaden waar je tegen wil valideren?
+
+- Python gebaseerd pyshacl
+
+Met pyshacl is het relatief eenvoudig om een validatie uit te voeren. Een voorbeeld hoe dat kan is hier te vinden:
+https://github.com/Geonovum/ISO-2-DCAT/blob/main/dcat-ap-nl-3/dcat-ap-nl-shacl-validatie/test.ipynb
+
+### Waar moet je op letten bij het valideren op basis van SHACL
+
+Omdat er bij DCAT Metadata vaak gebruik gemaakt wordt van URI's die verwijzen naar externe registraties is het soms moeilijk vast te stellen of deze externe URI's correct zijn of niet. Omdat zeker te weten zou je deze URI verwijzingen moeten volgen. Maar de externe URI's kunnen op hun beurt natuurlijk ook weer verder verwijzen, dus waar stop je dan?
+
+<!-- Een praktijk voorbeeld hiervan is het gebruik van TOOI Uri's voor publisher, owner e.d. Volgens DCAT-AP(-NL) moet het bereik van deze URI's foaf:Agent zijn. In eerste instantie lijken de TOOI instanties ... te zijn. Maar als je verder de TOOI ontologie volgt blijken de organisaties ook als foaf:Agent te zijn gedefinieerd en voldoen ze dus aan het DCAT-AP(-NL) profiel.
+
 -->
